@@ -84,7 +84,7 @@
 		var bodyHtml = ''
 
 		function initAsset(editor, pluginUrl) {
-			var fontawesomeUrl = "../../fontawesome-free/css/fontawesome.min.css"
+			var fontawesomeUrl = "../../media/vendor/fontawesome-free/css/fontawesome.min.css"
 			var fontawesomeVer = 'free'
 
 			utils.loadStyle(document, fontawesomeUrl)
