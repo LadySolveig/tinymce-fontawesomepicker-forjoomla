@@ -1,34 +1,17 @@
-# tinymce-fontawesomepicker
-A plugin for `tinymce v5` that selects the `fontawesome` icon.
+# tinymce-fontawesomepicker for Joomla 4
+A plugin for `tinymce v5` that selects the `fontawesome` icon in Joomla 4 with the preinstalled fontawesome-free package.
+
+Thank you very muth for this great plugin. I forked from [yoddag](https://github.com/yodagg/tinymce-fontawesomepicker) and only changed the url parameter to be hardcoded to target to the preinstalled Joomla 4 Fontawesome CSS.
 
 [example](http://gitpages.wo2.me/tinymce-fontawesomepicker/)
 
-
 # usage
-- Move the `fontawesomepicker` folder to `tinymce/plugins`
-    ```js
-    window.tinymce.init({
-        selector: 'textarea',
-        plugins: 'fontawesomepicker',
-        toolbar: 'fontawesomepicker',
-        fontawesomeUrl: 'https://www.unpkg.com/@fortawesome/fontawesome-free@5.14.0/css/all.min.css',
-        fontawesomePro: false, //default: false, enable or disable Pro vs Free font  
-    })
-    ```
+- Move the `fontawesomepicker` folder to `media/vendor/tinymce/plugins`
 
-- Url `fontawesomepicker`
-    ```js
-    window.tinymce.init({
-        selector: 'textarea',
-        plugins: 'fontawesomepicker',
-        toolbar: 'fontawesomepicker',
-        fontawesomeUrl: 'https://www.unpkg.com/@fortawesome/fontawesome-free@5.14.0/css/all.min.css',
-        fontawesomePro: false, //default: false, enable or disable Pro vs Free font  
-        external_plugins: {
-            //  url
-            fontawesomepicker: 'https://www.unpkg.com/tinymce-fontawesomepicker/fontawesomepicker/plugin.min.js'
-        },
-    })
+- Settings in Joomla TinyMCE Plugin for `fontawesomepicker`
+
+
+    
     ```
 
 
